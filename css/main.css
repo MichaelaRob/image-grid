@@ -9,9 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-}
 
-html {
   box-sizing: border-box;
 }
 
@@ -27,6 +25,7 @@ body {
 img {
   width: 100%;
   float: left;
+  display: block;
 }
 
 img:nth-child(2),
@@ -38,23 +37,23 @@ img:nth-child(5) {
 @media only screen and (min-width: 25em) {
 
   img:nth-child(2) {
-  display: block;
-  width: 50%;
+    display: block;
+    width: 50%;
   }
 
   img:nth-child(3) {
-  display: block;
-  width: 50%;
+    display: block;
+    width: 50%;
   }
 
   img:nth-child(4) {
-  display: block;
-  width: 50%;
+    display: block;
+    width: 50%;
   }
 
   img:nth-child(5) {
-  display: block;
-  width: 50%;
+    display: block;
+    width: 50%;
 
   }
 }
@@ -62,35 +61,35 @@ img:nth-child(5) {
 @media only screen and (min-width: 38em) {
 
   img:nth-child(5) {
-  display: none;
+    display: none;
   }
 
   img:nth-child(2) {
-  width: 33.3333%;
+    width: 33.3333%;
   }
 
   img:nth-child(3) {
-  width: 33.3333%;
+    width: 33.3333%;
   }
 
   img:nth-child(4) {
-  width: 33.3333%
+    width: 33.3333%
   }
 }
 
 @media only screen and (min-width: 60em) {
 
   img:first-child {
-  display: block;
-  width: 66.6666%;
+    display: block;
+    width: 66.6666%;
   }
 
   img:nth-child(2) {
-  width: 33.3333%;
+    width: 33.3333%;
   }
 
   img:nth-child(5) {
-  display: block;
-  width: 33.3333%;
+    display: block;
+    width: 33.3333%;
   }
 }
